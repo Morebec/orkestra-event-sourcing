@@ -1,1 +1,0 @@
-# orkestra-event-sourcing
