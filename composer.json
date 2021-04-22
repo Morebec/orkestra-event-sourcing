@@ -2,12 +2,16 @@
     "name": "morebec/orkestra-event-sourcing",
     "description": "Orkestra component providing utilities and classes for implementing Event Sourcing",
     "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "jwillp",
             "email": "jwilliam.perreault@morebec.com"
         }
     ],
+    "suggest": {
+        "morebec/orkestra-postgresql-event-store": "PostgreSQL implementation of an Event Store"
+    },
     "require": {
         "php": ">=7.3",
         "ramsey/uuid": "^4.1",
